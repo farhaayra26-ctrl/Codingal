@@ -1,82 +1,69 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Colour Card</title>
 
-<head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width">
-  <title>My Media Adventure</title>
-</head>
+    <style>
 
-<body>
+      /* Universal Selector - applies to everything on the page */
+      * {
+        font-size: 16px;
+      }
 
-  <center>
+      /* Element Selectors */
+      body {
+        background-color: lightgray;
+      }
 
-    <h1>My Media Adventure Webpage</h1>
+      h1 {
+        color: darkblue;
+      }
 
-    <p>
-      Welcome to my fun webpage! Here, you can explore images, listen to music, watch a video, and play a game.
-    </p>
+      h2 {
+        color: purple;
+      }
 
-    <hr>
+      p {
+        color: dimgray;
+      }
 
-    <h2>Space mission gallery</h2>
+      /* Class Selector */
+      .my-detail {
+        color: darkgreen;
+        font-weight: bold;
+      }
 
-    <p>
-      These images show my exciting space adventure.
-    </p>
+      /* ID Selector */
+      #my-card {
+        background-color: lightcyan;
+      }
 
-    <img src="rocket.png" alt="A rocket flying into space" width="300" height="300">
-    <img src="planet.png" alt="A colourful planet in space" width="300" height="300">
-    <img src="astronaut.png" alt="An astronaut exploring space" width="300" height="300">
+    </style>
 
-    <hr>
+  </head>
+  <body>
 
-    <h2>Aquatic beats party</h2>
+    <h1>My Colour Card</h1>
 
-    <p>
-      Play the music and enjoy the aquatic animal video.
-    </p>
+    <!-- Inline CSS: Add style="color: ____;" inside this p tag -->
+    <p style="color: crimson;">Hi! This is my very own webpage.</p>
 
-    <audio controls loop>
-      <source src="music.mp3" type="audio/mpeg">
-      Your browser does not support the audio tag.
-    </audio>
+    <div id="my-card">
 
-    <br><br>
+      <h2>About Me</h2>
+      <p class="my-detail">My name is Sam.</p>
+      <p class="my-detail">My favourite colour is red.</p>
+      <p class="my-detail">My favourite subject is Maths.</p>
+      <p class="my-detail">My favourite food is pasta.</p>
 
-    <video width="500" height="350" controls poster="poster.png" loop>
-      <source src="aqua.mp4" type="video/mp4">
-      Your browser does not support the video tag.
-    </video>
+    </div>
 
-    <hr>
+    <h2>My Favourite Things</h2>
+    <p>My favourite animal is a cat.</p>
+    <p>My favourite sport is cricket.</p>
+    <p>My favourite movie is The Lion King.</p>
 
-    <h2>Super game zone</h2>
-
-    <p>
-      Play this Scratch game directly inside the webpage.
-    </p>
-
-    <iframe 
-      src="https://scratch.mit.edu/projects/60917032/embed"
-      allowtransparency="true"
-      width="500"
-      height="400"
-      frameborder="0"
-      scrolling="no"
-      allowfullscreen>
-    </iframe>
-
-    <hr>
-
-    <h2>Mission complete!</h2>
-
-    <p>
-      I used image, audio, video, and iframe tags to make this HTML media webpage.
-    </p>
-
-  </center>
-
-</body>
-
+  </body>
 </html>
