@@ -1,0 +1,15 @@
+ body { 
+    background-color: #f0faff;
+ }
+    .navbar { 
+        background-color: #563d7c;
+    
+    
+    }
+    .navbar-brand, .nav-link {
+         color: #fff !important; 
+        
+        }
+    .section-title {
+         color: #563d7c; margin: 20px 0 10px;
+         }
