@@ -1,0 +1,44 @@
+
+    body { 
+        position: relative; 
+    }
+    .wildlife-slide {
+      height: 200px;
+      text-align: center;
+      padding-top: 75px;
+      font-size: 1.8rem;
+      color: white;
+    }
+    .slide-savanna {
+         background: #c77b30; 
+        }
+    .slide-mountain { 
+        background: #4b6f8a; 
+    }
+    .slide-evening { 
+        
+        background: #5b4778;
+    
+    
+    }
+
+
+    .section {
+      padding: 70px 20px;
+      min-height: 300px;
+    }
+
+
+    #savanna {
+         background: #fff3dc;
+    
+    }
+
+    #mountain {
+         background: #e6f2f7;
+    
+    }
+    #evening {
+         background: #f0e9f7; 
+    }
+  
