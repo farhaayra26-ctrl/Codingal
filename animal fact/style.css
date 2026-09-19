@@ -1,0 +1,27 @@
+body {
+  background-color: #d8c3a5;
+  font-family: Arial, sans-serif;
+}
+
+.animal-card {
+  background-color: #fff4e0;
+  color: #4a3f35;
+  width: 280px;
+  padding: 22px;
+  border: 4px solid #b76e4c;
+  margin: 35px;
+}
+
+.animal-title {
+  color: #a0523c;
+  font-size: 24px;
+}
+
+.animal-detail {
+  color: #4a3f35;
+}
+
+.fun-fact {
+  color: #c46b32;
+  font-style: italic;
+}
