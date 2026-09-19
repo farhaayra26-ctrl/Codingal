@@ -1,0 +1,54 @@
+/* Page text style */
+body {
+  background-color: rgb(61, 61, 131);
+  color: rgb(236, 222, 222);
+  font-family: Arial, sans-serif;
+}
+
+
+.hero-title {
+  font-size: 55px;
+  font-weight: bold;
+  color: rgb(221, 164, 57);
+  text-shadow: 3px 3px rgb(231, 231, 188);
+}
+
+
+.hero-tagline {
+  font-style: italic;
+  color: rgb(222, 255, 255);
+  text-transform: capitalize;
+}
+
+
+.section-title {
+  text-transform: uppercase;
+  text-decoration: underline;
+  color: gold;
+}
+
+
+.ability {
+  font-weight: bold;
+  color: rgb(55, 124, 55);
+}
+
+
+.weak-point {
+  text-decoration: line-through;
+  color: gray;
+}
+
+/* Hero badge */
+.hero-badge {
+  font-size: 30px;
+  font-weight: bold;
+  color: yellow;
+  transform: rotate(12deg);
+}
+
+/* Footer style */
+.creator {
+  color: coral;
+  font-style: italic;
+}
