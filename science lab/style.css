@@ -1,0 +1,26 @@
+
+body {
+  background-color: #fff7fb;
+  font-family: Arial, sans-serif;
+}
+
+.jumbotron {
+  background-color: #eee6ff;
+  border-left: 6px solid #c8a2c8;
+}
+
+.jumbotron h1 {
+  color: #9b72aa;
+}
+
+.section-title {
+  color: #9b72aa;
+  margin-top: 30px;
+  margin-bottom: 15px;
+}
+
+p {
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
