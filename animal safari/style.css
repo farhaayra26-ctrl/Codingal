@@ -1,0 +1,43 @@
+
+body {
+  position: relative;
+  background-color: #fff9f2;
+}
+
+.safari-slide {
+  height: 200px;
+  text-align: center;
+  padding-top: 75px;
+  font-size: 1.8rem;
+  color: white;
+}
+
+.slide-garden {
+  background: #9bcf9b;
+}
+
+.slide-lagoon {
+  background: #8fb9c9;
+}
+
+.slide-sunset {
+  background: #d9a0a0;
+}
+
+.section {
+  padding: 70px 20px;
+  min-height: 300px;
+}
+
+#garden {
+  background: #edf7df;
+}
+
+#lagoon {
+  background: #e5f3f7;
+}
+
+#valley {
+  background: #f9e5df;
+}
+

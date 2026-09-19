@@ -1,0 +1,75 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>My Dream Safari</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body data-spy="scroll" data-target="#safariNav" data-offset="60">
+
+  <!-- TOPIC 1, 2, 3: CAROUSEL -->
+  <div id="dreamCarousel" class="carousel slide" data-ride="carousel">
+
+    <ol class="carousel-indicators">
+      <li data-target="#dreamCarousel" data-slide-to="0" class="active"></li>
+      <li data-target="#dreamCarousel" data-slide-to="1"></li>
+      <li data-target="#dreamCarousel" data-slide-to="2"></li>
+    </ol>
+
+    <div class="carousel-inner">
+      <div class="carousel-item active safari-slide slide-garden"> Enchanted Garden</div>
+      <div class="carousel-item safari-slide slide-lagoon"> Magical Lagoon</div>
+      <div class="carousel-item safari-slide slide-sunset"> Sunset Valley</div>
+    </div>
+
+    <a class="carousel-control-prev" href="#dreamCarousel" data-slide="prev">
+      <span class="carousel-control-prev-icon"></span>
+    </a>
+
+    <a class="carousel-control-next" href="#dreamCarousel" data-slide="next">
+      <span class="carousel-control-next-icon"></span>
+    </a>
+
+  </div>
+
+  <!-- TOPIC 4: SCROLLSPY -->
+  <nav id="safariNav" class="navbar navbar-expand-sm navbar-dark bg-dark sticky-top">
+
+    <span class="navbar-brand"> Dream Guide</span>
+
+    <ul class="navbar-nav">
+      <li class="nav-item"><a class="nav-link" href="#garden">Garden</a></li>
+      <li class="nav-item"><a class="nav-link" href="#lagoon">Lagoon</a></li>
+      <li class="nav-item"><a class="nav-link" href="#valley">Valley</a></li>
+    </ul>
+
+  </nav>
+
+  <div class="container">
+
+    <div id="garden" class="section">
+      <h2> Enchanted Garden</h2>
+      <p>Wander through the peaceful garden and discover butterflies, rabbits, and colourful birds!</p>
+    </div>
+
+    <div id="lagoon" class="section">
+      <h2> Magical Lagoon</h2>
+      <p>Explore the sparkling water and discover playful otters, fish, and beautiful dragonflies!</p>
+    </div>
+
+    <div id="valley" class="section">
+      <h2> Sunset Valley</h2>
+      <p>Watch the sky glow over the valley while spotting deer, foxes, and little woodland creatures!</p>
+    </div>
+
+  </div>
+
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+
+</body>
+</html>
