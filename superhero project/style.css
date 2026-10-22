@@ -1,0 +1,56 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f0fff4;
+  text-align: center;
+  padding: 30px;
+}
+
+h1 {
+  color: #168aad;
+}
+
+p {
+  color: #444444;
+}
+
+button {
+  background-color: #168aad;
+  color: white;
+  border: none;
+  padding: 12px 25px;
+  border-radius: 8px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.card-container {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  margin-top: 25px;
+  flex-wrap: wrap;
+}
+
+.hero-card {
+  background-color: white;
+  border: 3px solid #52b69a;
+  border-radius: 12px;
+  width: 220px;
+  padding: 18px;
+}
+
+.hero-name {
+  font-size: 22px;
+  font-weight: bold;
+  color: #222222;
+}
+
+.hero-power {
+  color: #168aad;
+  font-weight: bold;
+}
+
+.hero-mission {
+  color: #666666;
+  font-size: 14px;
+}
